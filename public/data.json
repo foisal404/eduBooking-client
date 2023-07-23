@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "college_name": "La Trobe University Bundoora",
+        "college_image": "https://static.ffx.io/images/$zoom_0.4139%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_94/t_crop_custom/q_86%2Cf_auto/1e09e905bea50a14e1d5f6b786fbd588c4b316e7",
+        "college_rating": 4.5,
+        "admission_date": "2023-08-01",
+        "number_of_research": 500,
+        "events": [
+            "Annual Cultural Fest",
+            "Science Exhibition",
+            "Entrepreneurship Summit"
+        ],
+        "sports": [
+            "Football",
+            "Basketball",
+            "Swimming"
+        ]
+    },
+    {
+        "id": 2,
+        "college_name": "University of Melbourne",
+        "college_image": "https://img.emg-services.net/institutes/institute3393/uom-header.jpg",
+        "college_rating": 4.2,
+        "admission_date": "2023-09-15",
+        "number_of_research": 3000,
+        "events": [
+            "Tech Fest",
+            "Literary Fest",
+            "Social Awareness Week"
+        ],
+        "sports": [
+            "Cricket",
+            "Tennis",
+            "Volleyball"
+        ]
+    },
+    {
+        "id": 3,
+        "college_name": "Monash University",
+        "college_image": "https://www.usnews.com/object/image/00000153-ec2c-d802-ab7f-feacb9230000/160406-monashu-submitted.jpg?update-time=1459956316556&size=responsiveFlow970",
+        "college_rating": 4.0,
+        "admission_date": "2023-07-20",
+        "number_of_research": 2000,
+        "events": [
+            "Art Exhibition",
+            "Career Fair",
+            "Science Quiz Competition"
+        ],
+        "sports": [
+            "Badminton",
+            "Table Tennis",
+            "Athletics"
+        ]
+    },
+    {
+        "id": 4,
+        "college_name": "University of Sydney Camperdown",
+        "college_image": "https://3.bp.blogspot.com/-9kUdF79LN8E/XCtW5J0nUdI/AAAAAAAAxjY/uu1KKpTe0hYe1C4nsJ2OwP7rRnnHg4-cgCLcBGAs/s1600/University%2Bof%2BSydney.jpg",
+        "college_rating": 4.7,
+        "admission_date": "2023-08-20",
+        "number_of_research": 3500,
+        "events": [
+            "Technical Symposium",
+            "Robotics Competition",
+            "Cultural Week"
+        ],
+        "sports": [
+            "Hockey",
+            "Chess",
+            "Gymnastics"
+        ]
+    },
+    {
+        "id": 5,
+        "college_name": "University Of New South Wales",
+        "college_image": "https://images.shiksha.com/mediadata/images/1534232683phpdxY8sY.jpeg",
+        "college_rating": 4.3,
+        "admission_date": "2023-09-01",
+        "number_of_research": 2800,
+        "events": [
+            "Business Conclave",
+            "Finance Workshop",
+            "Leadership Summit"
+        ],
+        "sports": [
+            "Golf",
+            "Squash",
+            "Archery"
+        ]
+    },
+    {
+        "id": 6,
+        "college_name": "macquarie university",
+        "college_image": "https://images.shiksha.com/mediadata/images/1533723518phpzYjJlZ.jpeg",
+        "college_rating": 4.6,
+        "admission_date": "2023-07-15",
+        "number_of_research": 4000,
+        "events": [
+            "Medical Conference",
+            "Health Camp",
+            "Research Symposium"
+        ],
+        "sports": [
+            "Athletics",
+            "Swimming",
+            "Basketball"
+        ]
+    },
+    {
+        "id": 7,
+        "college_name": "university of queensland",
+        "college_image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Steele_Building_surrounding_the_Great_Court%2C_University_of_Queensland_01.jpg",
+        "college_rating": 4.1,
+        "admission_date": "2023-08-10",
+        "number_of_research": 1500,
+        "events": [
+            "Art Show",
+            "Film Festival",
+            "Literary Workshop"
+        ],
+        "sports": [
+            "Dance",
+            "Yoga",
+            "Martial Arts"
+        ]
+    }
+]
