@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import bannerImg from "../../../src/assets/image/bannerImg.png";
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import TopColleges from "./TopColleges";
 
 const Home = () => {
   const [college, setCollege] = useState(null);
@@ -18,13 +19,14 @@ const Home = () => {
   return (
     <>
       <div>
+        {/* hero section  */}
         <div className="hero min-h-screen bg-gradient-to-r from-cyan-100 via-teal-50 to-white">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <div className="lg:w-2/3">
               <img src={bannerImg} className="rounded-lg w-full" />
             </div>
             <div>
-              <h1 className="text-5xl font-bold">
+              <h1 className="text-5xl font-bold text-slate-600">
                 Unlock Your Educational Journey with EduBooking!
               </h1>
               <p className="py-6 text-slate-500">
@@ -71,6 +73,9 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        {/* top college section  */}
+        <TopColleges/>
       </div>
     </>
   );
