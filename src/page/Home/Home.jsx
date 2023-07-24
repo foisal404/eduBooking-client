@@ -3,6 +3,7 @@ import bannerImg from "../../../src/assets/image/bannerImg.png";
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import TopColleges from "./TopColleges";
+import GraduateGallery from "./GraduateGallery";
 
 const Home = () => {
   const [college, setCollege] = useState(null);
@@ -76,6 +77,9 @@ const Home = () => {
 
         {/* top college section  */}
         <TopColleges/>
+
+        {/* GraduateGallery  */}
+        <GraduateGallery/>
       </div>
     </>
   );
