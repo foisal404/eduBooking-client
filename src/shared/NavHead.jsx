@@ -9,7 +9,7 @@ const NavHead = () => {
         <Link to="/college">Colleges</Link>
       </li>
       <li>
-        <Link to="/">Admission</Link>
+        <Link to="/addmission">Admission</Link>
       </li>
       <li>
         <Link to="/">My College</Link>
