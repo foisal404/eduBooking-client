@@ -52,7 +52,7 @@ const NavHead = () => {
         <ul className="menu menu-horizontal px-1">{NavIiems}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Login</a>
+        <a className="btn"><Link to='/login'>Login</Link></a>
       </div>
     </div>
   );

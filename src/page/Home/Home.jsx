@@ -11,7 +11,7 @@ const Home = () => {
   const handleRef = () => {
     const search = searchRef.current.value;
     console.log(search);
-    fetch(`http://localhost:5000/college?search=${search}`)
+    fetch(`https://edu-booking-server.vercel.app/college?search=${search}`)
       .then((res) => res.json())
       .then((data) => setCollege(data));
   };

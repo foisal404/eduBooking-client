@@ -4,6 +4,8 @@ import Home from "../page/Home/Home";
 import College from "../page/College/College";
 import CollegeDetails from "../page/College/CollegeDetails";
 import Addmission from "../page/addmission/Addmission";
+import Login from "../page/Login/Login";
+import Register from "../page/Login/Register";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,11 +22,19 @@ const router = createBrowserRouter([
       {
         path: '/college/details/:id',
         element: <CollegeDetails/>,
-        loader: ({params})=>fetch(`http://localhost:5000/colleges/${params.id}`)
+        loader: ({params})=>fetch(`https://edu-booking-server.vercel.app/colleges/${params.id}`)
       },
       {
         path: '/addmission',
         element:<Addmission/>
+      },
+      {
+        path: '/login',
+        element:<Login/>
+      },
+      {
+        path: '/register',
+        element:<Register/>
       }
     ],
   },

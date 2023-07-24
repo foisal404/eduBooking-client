@@ -4,7 +4,7 @@ import { FaAngleRight } from "react-icons/fa";
 const Addmission = () => {
   const [colleges, setCollege] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/colleges")
+    fetch("https://edu-booking-server.vercel.app/colleges")
       .then((res) => res.json())
       .then((data) => setCollege(data));
   }, []);

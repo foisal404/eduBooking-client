@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 const GraduateGallery = () => {
     const [gallery,setGallery]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/gallery')
+        fetch('https://edu-booking-server.vercel.app/gallery')
         .then(res=>res.json())
         .then(data=>setGallery(data))
     },[])

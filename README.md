@@ -1,2 +1,3 @@
 ## EduBooking 
+[Live](https://myedubooking.web.app/)
 EduBooking is an online platform designed to simplify the process of exploring and booking educational opportunities. It offers a wide range of educational institutions, courses, workshops, and events to cater to diverse learning interests. Users can discover reputable colleges, universities, training centers, and educational events in various fields.
