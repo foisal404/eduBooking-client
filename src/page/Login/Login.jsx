@@ -1,10 +1,20 @@
+import { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { FaGoogle } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { authContext } from "../../Auth/Authprovider";
 const Login = () => {
+  const {googleLogin,SignIn}=useContext(authContext)
     const { register, handleSubmit } = useForm();
   const handleGoogleIn=()=>{
-
+    googleLogin()
+        .then(result=>{
+            const currentUser=result.user;
+            console.log(currentUser);
+        })
+        .catch(error=>{
+          console.error(error.message);
+        })
   }
   const onSubmit = data => {
     // console.log(data)
@@ -13,7 +23,7 @@ const Login = () => {
     
   };
   return (
-    <div className="hero min-h-screen w-full bg-base-200">
+    <div className="hero min-h-screen w-full pt-16 bg-base-200">
       <div className="hero-content flex-col w-full">
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">Login now!</h1>

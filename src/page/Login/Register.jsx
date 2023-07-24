@@ -1,13 +1,23 @@
 import { useForm } from "react-hook-form";
 import { FaGoogle } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { authContext } from "../../Auth/Authprovider";
+import { useContext } from "react";
 const Register = () => {
+  const {googleLogin,singUp}=useContext(authContext)
   const { register, handleSubmit , formState: { errors }} = useForm();
   const onSubmit = (data) => {
     console.log(data);
   };
   const handlegoogleIn=()=>{
-    
+    googleLogin()
+    .then(result=>{
+        const currentUser=result.user;
+        console.log(currentUser);
+    })
+    .catch(error=>{
+      console.error(error.message);
+    })
   }
   return (
     <div className="hero min-h-screen pt-16 w-full bg-base-200">

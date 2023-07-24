@@ -12,7 +12,7 @@ const NavHead = () => {
         <Link to="/addmission">Admission</Link>
       </li>
       <li>
-        <Link to="/">My College</Link>
+        <Link to="/mycollege">My College</Link>
       </li>
     </>
   );

@@ -15,7 +15,7 @@ const Home = () => {
       .then((res) => res.json())
       .then((data) => setCollege(data));
   };
-  console.log(college);
+  // console.log(college);
   
   return (
     <>

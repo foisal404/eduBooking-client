@@ -6,6 +6,7 @@ import CollegeDetails from "../page/College/CollegeDetails";
 import Addmission from "../page/addmission/Addmission";
 import Login from "../page/Login/Login";
 import Register from "../page/Login/Register";
+import Mycollege from "../page/MyCollege/Mycollege";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: '/register',
         element:<Register/>
+      },
+      {
+        path: '/mycollege',
+        element:<Mycollege/>
       }
     ],
   },
